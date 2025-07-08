@@ -14,7 +14,7 @@ const Advertisement = () => {
 
   return (
     <section className="w-full px-4 relative bg-[#42465D]">
-      <div className="relative w-full h-[250px] md:h-[350px] lg:h-[400px]">
+      <div className="relative w-full h-[150px] md:h-[300px] lg:h-[350px]">
         {/* right image */}
         <div
           className="absolute left-1/2 -translate-x-1/2 lg:-top-18 md:-top-8 -top-8 w-64 md:w-[33rem] "
@@ -79,17 +79,14 @@ const Advertisement = () => {
         </div>
       </div>
 
-      <div
-        className="text-center my-32 font-semibold md:text-2xl text-lg leading-12"
-        dir="rtl"
-      >
-        <p className="text-white">
+      <div className="text-center my-32 font-semibold space-y-3" dir="rtl">
+        <p className="text-white md:text-3xl text-lg">
           <span className="text-[#C3BDFF]">
             {convertToPersianDigits(AdsText.adsTexts.ads1)}{' '}
           </span>
           نیروی سازمان ها
         </p>
-        <p className="text-white font-light">
+        <p className="text-white font-light md:text-2xl text-lg">
           به صورت حضوری و در بستر جلسات آنلاین
         </p>
       </div>
@@ -189,11 +186,15 @@ const Advertisement = () => {
       </div>
 
       <div
-        className="text-center my-48 font-medium md:text-2xl text-lg leading-12"
+        className="text-center md:my-40 my-48 font-medium space-y-3"
         dir="rtl"
       >
-        <p className="text-white font-bold">این فقط یک تغییر عدد نیست !</p>
-        <p className="text-white font-light">تحول درآمد، زندگی و رشد شخصیه</p>
+        <p className="text-white font-bold md:text-3xl text-lg">
+          این فقط یک تغییر عدد نیست !
+        </p>
+        <p className="text-white font-light md:text-2xl text-lg">
+          تحول درآمد، زندگی و رشد شخصیه
+        </p>
       </div>
 
       <div className="relative w-full flex flex-col md:flex-row-reverse justify-center items-center lg:h-[35rem] md:h-[25rem] h-[15rem]">
@@ -289,14 +290,11 @@ const Advertisement = () => {
         </div>
       </div>
 
-      <div
-        className="text-center my-48 md:text-2xl text-lg leading-12"
-        dir="rtl"
-      >
-        <p className="text-white font-bold">
+      <div className="text-center  md:my-40 my-48 space-y-3" dir="rtl">
+        <p className="text-white font-bold md:text-3xl text-lg">
           چند سال؟ یک سال؟ یک فصل؟ چند ماه؟
         </p>
-        <p className="text-white font-light">
+        <p className="text-white font-light md:text-2xl text-lg">
           {convertToPersianDigits(AdsText.adsTexts.ads2)}
         </p>
       </div>
@@ -411,12 +409,13 @@ const Advertisement = () => {
         </div>
       </div>
 
-      <div
-        className="text-center my-48 font-medium md:text-2xl text-lg leading-12"
-        dir="rtl"
-      >
-        <p className="text-white font-light">مهم نیست کجای دنیا باشی</p>
-        <p className="text-white">وقتی تصمیم بگیری بی مرز بدرخشی</p>
+      <div className="text-center my-48 font-medium space-y-3" dir="rtl">
+        <p className="text-white font-bold md:text-3xl text-lg">
+          مهم نیست کجای دنیا باشی
+        </p>
+        <p className="text-white md:text-2xl text-lg">
+          وقتی تصمیم بگیری بی مرز بدرخشی
+        </p>
       </div>
 
       <div className="relative w-full flex flex-col md:flex-row-reverse justify-center items-center lg:h-[35rem] md:h-[25rem] h-[15rem]">
@@ -513,14 +512,11 @@ const Advertisement = () => {
         </div>
       </div>
 
-      <div
-        className="text-center my-48 font-medium md:text-2xl text-lg leading-12"
-        dir="rtl"
-      >
-        <p className="text-white font-light">
+      <div className="text-center my-48 font-medium  space-y-3" dir="rtl">
+        <p className="text-white font-bold md:text-3xl text-lg">
           حتی مهم نیست مخاطب پیجت ایرانی باشه
         </p>
-        <p className="text-white">یا از کشورهای دیگه ! </p>
+        <p className="text-white md:text-2xl text-lg">یا از کشورهای دیگه ! </p>
       </div>
 
       <div className="relative w-full flex flex-col md:flex-row-reverse justify-center items-center lg:h-[35rem] md:h-[25rem] h-[15rem]">
