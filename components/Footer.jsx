@@ -1,7 +1,6 @@
 'use client';
 
 import Image from 'next/image';
-import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -36,7 +35,7 @@ const Footer = () => {
           <p className="text-sm">پلاک 74. مرکز توسعه کسب و کار صنعت 4</p>
         </div>
         <div className="flex flex-row justify-center gap-8">
-          <Link href="#">
+          <a href="#">
             <Image
               src="/svgs/social_x.svg"
               alt="Twitter/X"
@@ -44,9 +43,9 @@ const Footer = () => {
               height={26}
               className="cursor-pointer"
             />
-          </Link>
+          </a>
 
-          <Link href="#">
+          <a href="#">
             <Image
               src="/svgs/social_whatsapp.svg"
               alt="WhatsApp"
@@ -54,9 +53,9 @@ const Footer = () => {
               height={26}
               className="cursor-pointer"
             />
-          </Link>
+          </a>
 
-          <Link href="#">
+          <a href="#">
             <Image
               src="/svgs/social_youtube.svg"
               alt="YouTube"
@@ -64,9 +63,13 @@ const Footer = () => {
               height={26}
               className="cursor-pointer"
             />
-          </Link>
+          </a>
 
-          <Link href="www.instagram.com/babaknikfar">
+          <a
+            href="https://www.instagram.com/babaknikfar"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Image
               src="/svgs/social_instagram.svg"
               alt="Instagram"
@@ -74,7 +77,21 @@ const Footer = () => {
               height={26}
               className="cursor-pointer"
             />
-          </Link>
+          </a>
+
+          <a
+            href="https://t.me/formulyekdarsad"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/svgs/social_telegram.svg"
+              alt="Telegram"
+              width={26}
+              height={26}
+              className="cursor-pointer"
+            />
+          </a>
         </div>
       </div>
     </footer>
